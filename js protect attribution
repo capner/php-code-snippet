@@ -1,0 +1,10 @@
+<script>
+if ($("#erplate").length === 0){
+window.location.href = "https://www.pinterduit.com";
+}
+var erplatehref = $("#erplate").attr("href");
+if (erplatehref !== 'https://www.pinterduit.com'){
+window.location.href = "https://www.pinterduit.com";
+
+}
+</script>
